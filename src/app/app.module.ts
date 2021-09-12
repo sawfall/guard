@@ -9,6 +9,7 @@ import { DashAComponent } from './dashboard/dash-a/dash-a.component';
 import { DashBComponent } from './dashboard/dash-b/dash-b.component';
 import { DashboardComponent } from './dashboard/dashboard/dashboard.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { DashboardComponent } from './dashboard/dashboard/dashboard.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
